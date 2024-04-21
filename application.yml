@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5435/OrderCatalog
+    username: postgres
+    password:
+    
+  jpa:
+    hiberate: 
+      ddl-auto: none
