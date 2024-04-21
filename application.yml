@@ -7,3 +7,8 @@ spring:
   jpa:
     hiberate: 
       ddl-auto: none
+bsl:
+  customer:
+    service:
+      url: http://localhost:8080/v1/customer-info/customer/
+   
